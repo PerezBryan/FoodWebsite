@@ -1,23 +1,33 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #333;
 }
 
 header {
   background-color: #808080;
   padding: 20px;
-  text-align: center;
+  text-align: left;
 }
 
-nav ul {
+.navBar {
+  position: relative;
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
+  background-color: plum;
+  text-align: center;
+  font-weight: bold;
 }
 
 nav ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 nav ul li a {
@@ -31,5 +41,34 @@ section {
 
 footer {
   background-color: #B00000;
+  color:aliceblue;
   padding: 10px;
+}
+
+.foodImg {
+  float:right;
+}
+
+#footer-row {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+  text-align: center;
+}
+
+#footer-row ul {
+  list-style-type: none;
+}
+
+.bodyText {
+  color:aliceblue;
+}
+/*Box for links in the home page*/
+.link-box {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: azure;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
 }
