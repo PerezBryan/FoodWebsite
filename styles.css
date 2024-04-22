@@ -130,11 +130,26 @@ label {
   margin-bottom: 20px;
 }
 /*Spaces between the input and labels*/
-input {
+input [type="submit"] {
   width: 200px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 select {
   width: 200px;
   margin-bottom: 10px;
+}
+.food {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+figcaption {
+  font-size: medium;
+  color: white;
+}
+.food img {
+  display: flex;
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
 }
