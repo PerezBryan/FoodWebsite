@@ -150,6 +150,6 @@ figcaption {
 .food img {
   display: flex;
   margin: 0 auto;
-  width: 300px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
 }
