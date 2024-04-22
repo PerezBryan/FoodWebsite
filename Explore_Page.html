@@ -8,6 +8,15 @@
         <meta name="author" content="Bryan Perez">
         <title>Explore</title>
         <link rel="stylesheet" href="styles.css">
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HMVX9BCLQK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HMVX9BCLQK');
+</script>
     </head>
     <header>
         <h1><img src="Free_Sample_by_Wix.jpg" alt="logo" Width="100" Height="80">FumbleEats</h1>
@@ -17,33 +26,44 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Explore_Page.html">Explore</a></li>
                 <li><a href="Order.html">Order</a></li>
+                <li><a href="Contacts.html">Contact Us!</a></li>
             </ul>
         </nav>
     </header>
     <body>
-        <h1>Restaurants</h1>
+        <h1 class="h1Header">Restaurants</h1>
         <section>
             <article class="bodyText">
-                <p>Chick-fil-a 
-                    One of the most popular food chains in the country available on campus! 
-                    Start your order at Chick-fil-a now!
-
+                <h3>Chick-fil-a</h3>
+                    <p>One of the most popular food chains in the country available on campus! 
+                    Start your order at Chick-fil-a now! Or click the link to head to the school's website for more information.
                     </p>
                     <img src="chick_fil_a.jpg" alt="Carolina_chick-fil-a">
-            <nav id="orderLink">
-                <ul id="urlOrder">
-                    <li><a href="Order.html" class="link-box">Order</a></li>
-                    <a href="https://sc.edu/about/offices_and_divisions/dining_services/restaurants/chick-fil-a.php" class="link-box">Visit the website!</a>
-                </ul>
+            <nav>
+                <a href="Order.html" class="link-box">Order</a></li>
+                <a href="https://sc.edu/about/offices_and_divisions/dining_services/restaurants/chick-fil-a.php" class="link-box">Visit the website!</a>
             </nav>
+            <h3>Colloquium Cafe</h3>
             <p>
                 Colloquium cafe located next to the Humanities building offers
-                chicken, salads, and acai bowls.
-                
+                chicken, salads, and acai bowls. A popular spot among students.
+                Start your order or click the link to go to the school website!
             </p>
-            <img src="collo.jpeg" alt="colloquium_buidling">
-            <a href="Order.html" class="link-box">Order</a>
-            <a href="https://sc.edu/about/offices_and_divisions/dining_services/restaurants/colloquium_cafe.php" class="link-box">Visit the website!</a>
+            <img src="collo.jpeg" alt="colloquium_buidling" width="500px" height="200px">
+            <nav>
+                <a href="Order.html" class="link-box">Order</a>
+                <a href="https://sc.edu/about/offices_and_divisions/dining_services/restaurants/colloquium_cafe.php" class="link-box">Visit the website!</a>
+            </nav>
+            <h3>Gibbes Court Bistro</h3>
+            <p>
+                Located at the Capstone residence, Gibbes Court Bistro offers delicious flame-grilled burgers, salads, and snacks.
+                A great spot located nearby. Click the link to visit the website or order now!
+            </p>
+            <img src="gibbes.jpeg" alt="gibbes_court">
+            <nav>
+                <a href="Order.html" class="link-box">Order</a>
+                <a href="https://sc.edu/about/offices_and_divisions/dining_services/restaurants/gibbes_court_bistro.php" class="link-box">Visit the website!</a>
+            </nav>
             </article>
         </section>
         <footer class="footerSize">
@@ -63,7 +83,7 @@
                 <li>Twitter/X</li>
               </ul>
             </div>
-              <p class="footerText"></p>©FumbleEats 2024</p>
+            <p class="footerCopyright"><span>&copy;</span> 2024 FumbleEats</p>
           </footer>
     </body>
     

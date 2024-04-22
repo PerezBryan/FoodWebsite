@@ -1,28 +1,33 @@
-* {
+/*For the most part*/ /*Most are not assigned p*/
+p {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-
+  font-size: 24px;
+  display: flex;
+  color:azure;
 }
+/*Color and organization of the body*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #333;
 }
-
+/*Customizes the main header*/
 header {
-  background-color: #808080;
+  background-color: lightgray;
   padding: 20px;
   text-align: left;
 }
-
+/*Style for the navigation bar*/
 .navBar {
   position: relative;
   list-style-type: none;
   padding: 10px;
-  background-color: plum;
+  background-color: #600000;
   text-align: center;
   font-weight: bold;
+  color:azure;
 }
 
 nav ul li {
@@ -32,38 +37,46 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: azure;
 }
 
 section {
   padding: 20px;
 }
-
+/*Footer structure*/
 footer {
-  background-color: #B00000;
+  background-color: #600000;
   color:aliceblue;
   padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 42px;
+  justify-content: center;
+  align-items: center;
 }
-
+/*This is for the image in the Home(index) page*/
 .foodImg {
   float:right;
-}
 
+}
+/*To center the text inside the footer*/
 #footer-row {
   display: inline-block;
   vertical-align: top;
-  margin: 0 20px;
+  margin-right: 20px;
   text-align: center;
 }
-
+/*Removes the bullet styles*/
 #footer-row ul {
   list-style-type: none;
+  padding: 1;
 }
 
 .bodyText {
   color:aliceblue;
 }
-/*Box for links in the home page*/
+/*Boxes for labeling different links*/
 .link-box {
   display: inline-block;
   padding: 10px 20px;
@@ -71,4 +84,53 @@ footer {
   border: 1px solid #ccc;
   border-radius: 5px;
   text-decoration: none;
+}
+h3 {
+  font-size: 30px;
+  background-color: #600000;
+  color:azure;
+  display: inline-flex;
+}
+/*Used for once*/
+.h1Header {
+  font-size: 30px;
+  background-color: #600000;
+  color:azure;
+  display: inline-flex;
+}
+h2 {
+  font-size: 20px;
+}
+#imgAlign {
+  margin-right: auto;
+}
+/*I used this to position the copyright at the corner*/
+.footerCopyright {
+  color:aliceblue;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+  align-self: flex-end;
+  flex-basis: 100%;
+
+}
+/*This was used to make the forms look more presentable*/
+#formLayout {
+  width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*Labels and the text boxes were above each other so I used this to structure them*/
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+/*Spaces between the input and labels*/
+input {
+  width: 200px;
+  margin-bottom: 10px;
 }
